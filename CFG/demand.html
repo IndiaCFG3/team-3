@@ -59,7 +59,6 @@
             position: fixed;
             width: 20%;
             height: 100%;
-            background-color: #f0f0f0;
             box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.16), 2px 0 10px 0 rgba(0, 0, 0, 0.12);
             z-index: 1;
             overflow: auto;
@@ -78,14 +77,16 @@
 
         #side-nav-content a:focus,
         #side-nav-content a:hover {
-            background-color: #d5d5d5;
+            outline: 3px solid #ffffff;
+            outline-offset: -5px;
         }
 
         #side-nav-content a {
             padding: 3px 20px 3px 30px;
+            margin-top: 10px;
             display: block;
             font-size: 18px;
-            color: #000000;
+            color: #ffffff;
             text-decoration: none;
         }
 
@@ -160,7 +161,7 @@
 </header>
 
 <body>
-    <div class="d-xs-none d-sm-none d-md-block" id="side-nav">
+    <div class="d-xs-none d-sm-none d-md-block bg-secondary" id="side-nav">
         <div id="side-nav-content">
             <a href="#demand1">Total Population</a>
             <a href="#demand2">Malnutrition Data (stunting, anemia, wasting, undernutrition)</a>
@@ -171,7 +172,9 @@
     </div>
     <div class="container">
         <div id="demand1">
-            <h3>Total Population</h3>
+            <h3>
+                <span class="bg-primary rounded p-2 m-2 text-white">Total Population</span>
+            </h3>
             <div class="row justify-content-around">
                 <div class="col-11">
                     <div class='tableauPlaceholder' id='viz1597578158783' style='position: relative'><noscript><a
@@ -201,7 +204,10 @@
     </div>
     <div class="container">
         <div id="demand2">
-            <h3>Malnutrition Data (stunting, anemia, wasting, undernutrition)</h3>
+            <h3>
+                <span class="bg-success rounded p-2 m-2 text-white">Malnutrition Data (stunting, anemia, wasting,
+                    undernutrition)</span>
+            </h3>
             <div class="row justify-content-around">
                 <div class="col-11">
                     <div class='tableauPlaceholder' id='viz1597577145349' style='position: relative'><noscript><a
@@ -230,7 +236,9 @@
     </div>
     <div class="container">
         <div id="demand3">
-            <h3>Protein Consumption</h3>
+            <h3>
+                <span class="bg-danger rounded p-2 m-2 text-white">Protein Consumption</span>
+            </h3>
             <div class="row justify-content-around">
                 <div class="col-11">
                     <div class='tableauPlaceholder' id='viz1597565639048' style='position: relative'><noscript><a
@@ -262,7 +270,9 @@
     </div>
     <div class="container">
         <div id="demand4">
-            <h3>Egg Consumption per Person, per Year</h3>
+            <h3>
+                <span class="bg-dark rounded p-2 m-2 text-white">Egg Consumption per Person, per Year</span>
+            </h3>
             <div class="row justify-content-around">
                 <div class="col-11">
                     <div class='tableauPlaceholder' id='viz1597572089609' style='position: relative'><noscript><a
@@ -293,7 +303,9 @@
     </div>
     <div class="container">
         <div id="demand5">
-            <h3>Retail Price of a Single Egg (in USD)</h3>
+            <h3>
+                <span class="bg-primary rounded p-2 m-2 text-white">Retail Price of a Single Egg (in USD)</span>
+            </h3>
             <div class="row justify-content-around">
                 <div class="col-11">
                     <div class='tableauPlaceholder' id='viz1597568184838' style='position: relative'><noscript><a
