@@ -39,13 +39,20 @@ header ul li a:hover, header ul li a:focus{
 header ul li.active a{
     background-color:#fff;
     color:#000;
+    border-radius: 4px;
 
+}
+.bl:hover{
+    color:black;
+}
+header ul li a{
+    border-radius: 4px;
 
 }
 .logo img{
     margin-top:20px;
     float:left;
-    width:150px;
+    width:250px;
     height:auto;
 }
 .main{
@@ -92,12 +99,12 @@ header ul li.active a{
 }
 #about h1{
     text-align: center;
-    color:#460e0e !important;
+    color:#000000 !important;
     padding-bottom: 10px;
 }
 #about h2{
     
-    color:#966214 !important;
+    color:#1b1b1b  !important;
     padding-bottom: 10px;
 }
 #about h1::after{
