@@ -194,8 +194,14 @@ header ul li a{
     color:#ccc;
 }
 .services .col-md-3:hover{
-    background:#86704C;
+    background:#86827c;
     color:#000;
+    cursor:pointer;
+    transition:0.7s;
+}
+.services .col-md-3 p:hover{
+    /* background:#86827c; */
+    color:#000000;
     cursor:pointer;
     transition:0.7s;
 }
